@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jkg-nodes
+  host: jkg-nodes
+  disk_quota: 1024M
+  services:
+  - jkg-nodes-cloudantNoSQLDB
